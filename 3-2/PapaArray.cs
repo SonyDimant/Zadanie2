@@ -4,12 +4,10 @@ using System.Text;
 
 namespace _3_2
 {
-    public abstract class BaseArray
+    public abstract class PapaArray
     {
-        // массив заполняется целыми числами
         public abstract void IntValues();
 
-        //массив заполняется случайными числами
         public abstract void RandomValues();
         public abstract void ShowArray();
         public abstract double AverageValue();

@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace _3_2
 {
-    sealed class Massive_3 : BaseArray
+    sealed class Massive_3 : PapaArray
     {
         private int[][] _array;
         private int _size;

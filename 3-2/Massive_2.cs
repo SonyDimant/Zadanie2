@@ -4,7 +4,7 @@ using System.Text;
 
 namespace _3_2
 {
-    sealed class Massive_2 : BaseArray
+    sealed class Massive_2 : PapaArray
     {
         private int[,] _array;
         private int _row;
