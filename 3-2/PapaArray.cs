@@ -6,9 +6,9 @@ namespace _3_2
 {
     public abstract class PapaArray
     {
-        public abstract void IntValues();
+        abstract void IntValues();
 
-        public abstract void RandomValues();
+        abstract void RandomValues();
         public abstract void ShowArray();
         public abstract double AverageValue();
 
