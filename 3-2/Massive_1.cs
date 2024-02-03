@@ -8,14 +8,6 @@ namespace _3_2
     {
         private int[] _array;
         private int _size;
-
-        public int[] Array
-        {
-            get
-            {
-                return _array;
-            }
-        }
         public Massive_1(int size, bool t = false)
         {
             _size = size;
@@ -33,7 +25,7 @@ namespace _3_2
         }
 
 
-        public override void RandomValues()
+        private override void RandomValues()
         {
             Random rnd = new Random();
             for (int i = 0; i < _size; i++)
@@ -43,7 +35,7 @@ namespace _3_2
         }
 
 
-        public override void IntValues()
+        private override void IntValues()
         {
             Console.WriteLine("Введите элементы: ");
             for (int i = 0; i < _array.Length; i++)
