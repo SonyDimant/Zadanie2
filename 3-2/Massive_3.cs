@@ -25,7 +25,7 @@ namespace _3_2
             }
         }
 
-        private override void RandomValues()
+        private void RandomValues()
         {
             Random rnd = new Random();
 
@@ -40,7 +40,7 @@ namespace _3_2
             }
         }
 
-        private override void IntValues()
+        private void IntValues()
         {
             for (int i = 0; i < _size; i++)
             {
