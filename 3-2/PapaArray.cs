@@ -4,7 +4,7 @@ using System.Text;
 
 namespace _3_2
 {
-    public abstract class PapaArray
+    public abstract class PapaArray: IPrinter, IPapaArray
     {
         public abstract void IntValues();
 

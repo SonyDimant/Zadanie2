@@ -6,6 +6,6 @@ namespace _3_2
 {
     interface IPrinter
     {
-        void Print();
+        public void Print();
     }
 }

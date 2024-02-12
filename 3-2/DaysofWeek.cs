@@ -13,10 +13,6 @@ namespace _3_2
             {
                 Console.WriteLine(day);
             }
-
         }
-
-
-
     }
 }
