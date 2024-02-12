@@ -25,7 +25,7 @@ namespace _3_2
         }
 
 
-        private void RandomValues()
+        public override void RandomValues()
         {
             Random rnd = new Random();
             for (int i = 0; i < _size; i++)
@@ -35,17 +35,17 @@ namespace _3_2
         }
 
 
-        private void IntValues()
+        public override void IntValues()
         {
             Console.WriteLine("Введите элементы: ");
             for (int i = 0; i < _array.Length; i++)
             {
                 _array[i] = int.Parse(Console.ReadLine());
-            }
+            } 
         }
 
 
-        public override void ShowArray()
+        public override void Print()
         {
             foreach (int i in _array)
             {

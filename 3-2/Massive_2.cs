@@ -26,7 +26,7 @@ namespace _3_2
         }
 
 
-        private void RandomValues()
+        public override void RandomValues()
         {
             Random rnd = new Random();
             for (int i = 0; i < _row; i++)
@@ -39,7 +39,7 @@ namespace _3_2
         }
 
 
-        private void IntValues()
+        public override void IntValues()
         {
             Console.WriteLine("Введите элементы: ");
             for (int i = 0; i < _row; i++)
@@ -66,7 +66,7 @@ namespace _3_2
             return summa / count_;
         }
 
-        public override void ShowArray()
+        public override void Print()
         {
             int rows = _array.GetLength(0);
             int collumns = _array.GetLength(1);

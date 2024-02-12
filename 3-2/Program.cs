@@ -14,16 +14,17 @@ namespace _3_2
 
             Massive_3 five = new Massive_3(3);
             PapaArray six = new Massive_3(4);
-
+           
             PapaArray[] papaArrays = new PapaArray[6] {one, two, three, four, five, six};
             foreach (PapaArray i in papaArrays)
             {
                 Console.WriteLine(i.GetType() + "\n");
                 Console.WriteLine(i.AverageValue());
-                i.ShowArray();
+                i.Print();
 
 
             }
+            DaysofWeek daysofweek = new DaysofWeek();
 
         }
 

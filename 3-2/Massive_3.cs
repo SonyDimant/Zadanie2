@@ -25,7 +25,7 @@ namespace _3_2
             }
         }
 
-        private void RandomValues()
+        public override void RandomValues()
         {
             Random rnd = new Random();
 
@@ -40,7 +40,7 @@ namespace _3_2
             }
         }
 
-        private void IntValues()
+        public override void IntValues()
         {
             for (int i = 0; i < _size; i++)
             {
@@ -56,7 +56,7 @@ namespace _3_2
             }
         }
 
-        public override void ShowArray()
+        public override void Print()
         {
             for (int i = 0; i < _array.Length; i++)
             {
