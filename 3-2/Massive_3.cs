@@ -10,19 +10,12 @@ namespace _3_2
         private int[][] _array;
         private int _size;
 
-        public Massive_3(int size, bool t = false)
+        public Massive_3(int size, bool t = false: base(t)
         {
             _size = size;
             _array = new int[size][];
 
-            if (!t)
-            {
-                RandomValues();
-            }
-            else
-            {
-                IntValues();
-            }
+            Fill();
         }
 
         public override void RandomValues()
