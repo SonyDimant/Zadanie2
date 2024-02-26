@@ -34,9 +34,8 @@ namespace _3_2
 
             foreach (IPapaArray i in array)
             {
-                Console.WriteLine($"Среднее значение {i.GetType()} массива {i.AverageValue()}\n");
-                Console.WriteLine($"Элементы массива {i.GetType()}\n");
-                i.Print();
+                i.AverageValue();
+                
             }
 
              
