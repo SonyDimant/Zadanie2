@@ -12,16 +12,9 @@ namespace _3_2
         {
             _size = size;
             _array = new int[_size];
+            Fill();
 
 
-            if (!t)
-            {
-                RandomValues();
-            }
-            else
-            {
-                IntValues();
-            }
         }
 
 
