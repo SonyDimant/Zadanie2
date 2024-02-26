@@ -37,6 +37,12 @@ namespace _3_2
                 i.AverageValue();
                 
             }
+            IPrinter[] IIprinter = new IPrinter[4] {Massive_1, Massive_2, Massive_3};
+            foreach(var i in IIprinter)
+            {
+                i.Print();
+            }
+                
 
              
         }
