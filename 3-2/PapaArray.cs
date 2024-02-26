@@ -15,7 +15,7 @@ namespace _3_2
         public abstract void RandomValues();
         public abstract void Print();
         public abstract double AverageValue();
-        Fill(){
+        public void Fill(){
             if(A){
                 IntValues();
             }
