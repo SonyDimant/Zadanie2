@@ -9,20 +9,13 @@ namespace _3_2
         private int[,] _array;
         private int _row;
         private int _coll;
-        public Massive_2(int row, int collumn, bool t = false)
+        public Massive_2(int row, int collumn, bool t = false): base(t)
         {
             _array = new int[row, collumn];
             _row = row;
             _coll = collumn;
 
-            if (!t)
-            {
-                RandomValues();
-            }
-            else
-            {
-                IntValues();
-            }
+            Fill();
         }
 
 
