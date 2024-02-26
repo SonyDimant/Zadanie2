@@ -8,7 +8,7 @@ namespace _3_2
     {
         private int[] _array;
         private int _size;
-        public Massive_1(int size, bool t = false)
+        public Massive_1(int size, bool t = false): base(t)
         {
             _size = size;
             _array = new int[_size];
